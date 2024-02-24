@@ -1,5 +1,7 @@
 {
 	"/": [],
-	"/components": [],
+	"/components": [
+		"src/routes/components/+page.server.ts"
+	],
 	"/components/[id]": []
 }

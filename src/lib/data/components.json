@@ -1,67 +1,88 @@
 [
     {
-        "title": "Application UI components",
-        "subtitle": "Explore our Application UI components, designed for crafting dynamic web applications with versatile interface elements.",
-        "image": "https://img.freepik.com/free-vector/gradient-colored-ui-sliders-collection_23-2149188482.jpg?w=2000&t=st=1706527056~exp=1706527656~hmac=b228293091c419d6664e4352f3f9fd438a32428eb9b26cc2357fb36c6fb2eb8e",
+        "title": "User Interface Components",
+        "slug": "user-interface-components",
+        "subtitle": "Create visually appealing effects with blurred backgrounds, Add attention-grabbing scrolling text elements, Provide unobtrusive feedback messages to users.",
+        "image": "src/lib/assets/user-interface-components.svg",
         "components": [
             {
-                "image": "",
-                "title": "adkfds",
-                "slug": "avatar"
+                "title": "Blur Container",
+                "slug": "blur-container",
+                "subtitle": "Create visually appealing effects with blurred backgrounds.",
+                "image": "src/lib/assets/blur-container.svg"
             },
             {
-                "image": "",
-                "title": "adkfds",
-                "slug": "avatar"
+                "title": "Marquee",
+                "slug": "marquee",
+                "subtitle": "Add attention-grabbing scrolling text elements.",
+                "image": "src/lib/assets/marquee.svg"
             },
             {
-                "image": "",
-                "title": "adkfds",
-                "slug": "avatar"
+                "title": "Snackbar", 
+                "slug": "snackbar",
+                "subtitle": "Provide unobtrusive feedback messages to users.",
+                "image": "src/lib/assets/snackbar.svg"
             }
         ]
     },
     {
-        "title": "Application UI components",
-        "subtitle": "Explore our Application UI components, designed for crafting dynamic web applications with versatile interface elements.",
-        "image": "https://img.freepik.com/free-vector/gradient-colored-ui-sliders-collection_23-2149188482.jpg?w=2000&t=st=1706527056~exp=1706527656~hmac=b228293091c419d6664e4352f3f9fd438a32428eb9b26cc2357fb36c6fb2eb8e",
+        "title": "Interaction Components",
+        "slug": "interaction-components",
+        "subtitle": "Display dynamic counting text for various purposes, Efficiently pick dates with a convenient drawer interface, Guide users through your application's features seamlessly.",
+        "image": "src/lib/assets/interaction-components.svg",
         "components": [
             {
-                "image": "",
-                "title": "adkfds",
-                "slug": "avatar"
+                "title": "Counting Text",
+                "slug": "counting-text",
+                "subtitle": "Display dynamic counting text for various purposes.",
+                "image": "src/lib/assets/counting-text.svg"
             },
             {
-                "image": "",
-                "title": "adkfds",
-                "slug": "avatar"
+                "title": "Date Select Drawer",
+                "slug": "date-select-drawer",
+                "subtitle": "Efficiently pick dates with a convenient drawer interface.",
+                "image": "src/lib/assets/date-select-drawer.svg"
             },
             {
-                "image": "",
-                "title": "adkfds",
-                "slug": "avatar"
+                "image": "src/lib/assets/onboarding.svg",
+                "title": "Onboarding",
+                "slug": "onboarding",
+                "subtitle": "Guide users through your application's features seamlessly."
             }
         ]
     },
     {
-        "title": "Application UI components",
-        "subtitle": "Explore our Application UI components, designed for crafting dynamic web applications with versatile interface elements.",
-        "image": "https://img.freepik.com/free-vector/gradient-colored-ui-sliders-collection_23-2149188482.jpg?w=2000&t=st=1706527056~exp=1706527656~hmac=b228293091c419d6664e4352f3f9fd438a32428eb9b26cc2357fb36c6fb2eb8e",
+        "title": "Navigation Components",
+        "slug": "navigation-components",
+        "subtitle": "Organize content into easily navigable tabs, Similar to Tab Bar, but with a vertical orientation for navigation.",
+        "image": "src/lib/assets/navigation-components.svg",
         "components": [
             {
-                "image": "",
-                "title": "adkfds",
-                "slug": "avatar"
+                "image": "src/lib/assets/tab-bar.svg",
+                "title": "Tab Bar",
+                "slug": "tab-bar",
+                "subtitle": "Organize content into easily navigable tabs."
             },
             {
-                "image": "",
-                "title": "adkfds",
-                "slug": "avatar"
-            },
+                "image": "src/lib/assets/vertical-tab-bar.svg",
+                "title": "Vertical Tab Bar",
+                "slug": "vertical-tab-bar",
+                "subtitle": "Similar to Tab Bar, but with a vertical orientation for navigation."
+            }
+        ]
+    },
+    {
+        "title": "Authentication & Social Components",
+        "slug": "authentication-social-components",
+        "subtitle": "Enable users to log in using social media accounts.",
+        "image": "src/lib/assets/authentication-social-components.svg",
+
+        "components": [
             {
-                "image": "",
-                "title": "adkfds",
-                "slug": "avatar"
+                "image": "src/lib/assets/social-login.svg",
+                "title": "Social Login",
+                "slug": "social-login",
+                "subtitle": "Enable users to log in using social media accounts."
             }
         ]
     }

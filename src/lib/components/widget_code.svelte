@@ -2,10 +2,14 @@
     
 	import { onMount } from "svelte";
 	import Gist from "./gist.svelte";
+	import type { WidgetModal } from "$lib/model/types";
 
     let showCode: boolean = true;
     let showPreview: boolean = false;
 
+    export let title:string;
+    export let route: string;
+    export let gist: string;
     function onShowCode() {
         showPreview = false;
         showCode = true
@@ -57,7 +61,7 @@
     <div
         class="flex w-full flex-col items-end justify-between border-b border-gray-200 px-4 py-4 text-lg font-medium text-gray-900 focus:outline-none md:flex-row"
     >
-        <p class="self-start pb-2 md:self-center md:pb-0">Simple AppBar</p>
+        <p class="self-start pb-2 md:self-center md:pb-0">{title}</p>
         <div class="inline-flex">
             <button id="previewButton" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l" on:click={()=>onShowPreview()}>
               Preview
@@ -74,13 +78,13 @@
                 class="pointer-events-auto m-auto rounded-2xl border-4 border-gray-400"
                 height="825"
                 width="423.72"
-                src="https://app.flutterui.design/#/simple_appbar"
+                src="https://app.flutterforge.online/#/{route}"
             ></iframe>
         </div>
     </div>
     <div id="codeElement" class="py-8 md:flex md:p-12" style="display: none;">
         <div class="m-auto text-center md:w-3/5">
-            <Gist src="https://gist.github.com/Harshgupta2902/1e6d7abbf1ad26b32f07862350675ec8.js"/>
+            <Gist src={gist}/>
         </div>
     </div>
 </div>
