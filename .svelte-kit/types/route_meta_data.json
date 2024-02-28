@@ -3,5 +3,7 @@
 	"/components": [
 		"src/routes/components/+page.server.ts"
 	],
-	"/components/[id]": []
+	"/components/[id]": [
+		"src/routes/components/[id]/+page.server.ts"
+	]
 }

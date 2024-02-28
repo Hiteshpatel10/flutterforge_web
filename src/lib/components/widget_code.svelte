@@ -78,7 +78,7 @@
                 class="pointer-events-auto m-auto rounded-2xl border-4 border-gray-400"
                 height="825"
                 width="423.72"
-                src="https://app.flutterforge.online/#/{route}"
+                src="https://app.flutterforge.online/#{route}"
             ></iframe>
         </div>
     </div>
