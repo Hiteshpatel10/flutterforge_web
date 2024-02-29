@@ -1,5 +1,8 @@
 {
 	"/": [],
+	"/blogs": [
+		"src/routes/blogs/+page.server.ts"
+	],
 	"/components": [
 		"src/routes/components/+page.server.ts"
 	],
