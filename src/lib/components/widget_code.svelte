@@ -9,6 +9,7 @@
 	export let route: string;
 	export let gist: string;
 
+
 	function onShowCode() {
 		showPreview = false;
 		showCode = true;
@@ -100,6 +101,7 @@
 				<div class="overflow-hidden bg-white dark:bg-gray-800">
 					<iframe
 						title="frame"
+						loading="lazy"
 						class="pointer-events-auto m-auto rounded-[1.5rem] w-[272px] h-[572px]"
 						src="https://app.flutterforge.online/#{route}"
 					></iframe>
