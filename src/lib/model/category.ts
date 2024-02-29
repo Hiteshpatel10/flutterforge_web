@@ -31,6 +31,7 @@ export type ForgeComponents = {
 		forge_components: Array<{
 			category_component_id: number;
 			gist: string;
+			title: string;
 			id: number;
 			route: string;
 			updated_at: string;

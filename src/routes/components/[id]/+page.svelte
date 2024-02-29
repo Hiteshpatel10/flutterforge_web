@@ -21,7 +21,7 @@
 <div class="p-4 md:px-16 md:py-8">
 	<div class="mt-10 space-y-16">
 		{#each forgeComp.forge_components as component}
-			<WidgetCode title={component.route} route={component.route} gist={component.gist} />
+			<WidgetCode title={component.title} route={component.route} gist={component.gist} />
 		{/each}
 	</div>
 </div>

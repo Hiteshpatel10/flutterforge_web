@@ -31,12 +31,14 @@
 						<div class="rounded-t-md border border-gray-200 bg-white">
 							<div style=" display: flex; justify-content: center; align-items: center; overflow: hidden;">
 								<img
-									alt="Avatar"
+									alt={component.slug}
 									loading="lazy"
 									decoding="async"
 									data-nimg="1"
 									class="rounded-md"
 									src="{component.image}"
+									height="655"
+									width="345"
 									style="max-width: 100%; max-height: 100%; object-fit: contain; margin: auto;"
 									/>
 							</div>
