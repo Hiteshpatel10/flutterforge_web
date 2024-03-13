@@ -1,5 +1,5 @@
 // @ts-nocheck
-import type { ForgeComponents } from '$lib/model/category';
+import type { ForgeComponents } from '$lib/model/forge_components.ts';
 import { forgeComponents } from '$lib/server/api_endpoints';
 
 interface PageLoadParams {
@@ -15,9 +15,11 @@ export const load = async ({ params }: { params: PageLoadParams }) => {
             'Content-Type': 'application/json'
         }
     });
-	const components: ForgeComponents = await  response.json();
+	const components: ForgeComponents[] = await  response.json();
+
+    
 	return {
-		forgeComp: components.result
+		forgeComponents: components
 	}; 
 }; 
     

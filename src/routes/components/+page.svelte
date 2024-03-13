@@ -17,8 +17,8 @@
 <Breadcrum breadcrumbs={breadcrum} />
 
 <div class="mx-auto max-w-7xl px-6 py-10 lg:px-4">
-    {#each componets.result as category}
-        <Category  category={category}/>
+    {#each componets as items}
+        <Category  forge={items}/>
         <hr class="h-[2px] w-full bg-black" />
     {/each}
 </div>
