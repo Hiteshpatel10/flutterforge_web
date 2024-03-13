@@ -6,7 +6,7 @@
 	let slug = $page.params.id;
 
 	export let data;
-	const { forgeComp } = data;
+	const { forgeComponents } = data;
 
 
 	let breadcrum = [
@@ -20,8 +20,8 @@
 
 <div class="p-4 md:px-16 md:py-8">
 	<div class="mt-10 space-y-16">
-		{#each forgeComp.forge_components as component}
-			<WidgetCode title={component.title} route={component.route} gist={component.gist} />
+		{#each forgeComponents as item}
+			<WidgetCode title={item.title} route={item.app_route ?? ""} gist={item.gist ?? ""} />
 		{/each}
 	</div>
 </div>

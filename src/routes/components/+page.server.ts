@@ -1,4 +1,4 @@
-import type { CategoryComponents } from '$lib/model/category';
+import type { ForgeCategory } from '$lib/model/forge';
 import { category } from '$lib/server/api_endpoints';
 
 export const load = async () => {
@@ -15,9 +15,9 @@ export const load = async () => {
 		return data;
 	};
 
-	const categoryComponents: CategoryComponents = await getCategoryComponents();
+	const forge: ForgeCategory[] = await getCategoryComponents();
 
 	return {
-		componets: categoryComponents.result
+		componets: forge
 	};
 };
