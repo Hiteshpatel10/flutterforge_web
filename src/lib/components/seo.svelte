@@ -13,7 +13,7 @@
     <meta name="robots" content="index,follow" />
     <meta name="description" content={description} />
 
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:card" content={description} />
     <meta name="twitter:site" content="@geekaid10" />
     <meta name="twitter:creator" content="@geekaid10" />
 

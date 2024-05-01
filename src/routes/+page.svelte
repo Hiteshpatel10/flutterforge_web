@@ -28,8 +28,8 @@
 <Features />
 
 <Seo
-	title="Flutter UI - Beautiful UI components for Flutter"
-	description="Flutter UI is a library of beautifully designed Flutter widgets, screens, and apps ready to be dropped into any Flutter project. Kickstart your next project with one of our easy to use app templates. Includes ecommerce apps, social apps, and more."
-	imageUrl=""
+	title="Flutter Forge "
+	description="Explore a world of easy-to-use Flutter components and widgets on FlutterForge."
+	imageUrl="https://i.imgur.com/afnPRdN.png"
 	url=""
 />
