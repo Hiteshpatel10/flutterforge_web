@@ -1,3 +1,7 @@
+<script>
+	import heroImage from '$lib/assets/hero-forge.png';
+</script>
+
 <div class="relative isolate bg-white">
 	<svg
 		class="absolute inset-0 -z-10 h-full w-full stroke-blue-200 [mask-image:radial-gradient(100%_100%_at_top_right,blue,transparent)]"
@@ -50,14 +54,15 @@
 		<div class="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow">
 			<img
 				alt="Flutter UI splash"
-				src="https://flutterui.design/_next/image?url=%2Fsplash.png&w=1080&q=75"
-				width="500"
-				height="1000"
+				src={heroImage}
+				width="250" 
+				height="500" 
 				decoding="async"
 				data-nimg="1"
 				class="mx-auto w-[22.875rem] max-w-full drop-shadow-2xl"
 				style="color: transparent;"
 			/>
 		</div>
+		
 	</div>
 </div>

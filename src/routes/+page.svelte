@@ -4,24 +4,24 @@
 	import { onMount } from 'svelte';
 	import Seo from '$lib/components/seo.svelte';
 
-	// Function to dynamically load a script
-	function loadScript(url: string) {
-		return new Promise((resolve, reject) => {
-			const script = document.createElement('script');
-			script.src = url;
-			script.onload = resolve;
-			script.onerror = reject;
-			document.body.appendChild(script);
-		});
-	}
+	// // Function to dynamically load a script
+	// function loadScript(url: string) {
+	// 	return new Promise((resolve, reject) => {
+	// 		const script = document.createElement('script');
+	// 		script.src = url;
+	// 		script.onload = resolve;
+	// 		script.onerror = reject;
+	// 		document.body.appendChild(script);
+	// 	});
+	// }
 
-	onMount(async () => {
-		try {
-			await loadScript('https://gist.github.com/Hiteshpatel10/59a340f68e61fa6d4bd865df9bd9c409.js');
-		} catch (error) {
-			console.error('Failed to load script:', error);
-		}
-	});
+	// onMount(async () => {
+	// 	try {
+	// 		await loadScript('https://gist.github.com/Hiteshpatel10/59a340f68e61fa6d4bd865df9bd9c409.js');
+	// 	} catch (error) {
+	// 		console.error('Failed to load script:', error);
+	// 	}
+	// });
 </script>
 
 <Hero />

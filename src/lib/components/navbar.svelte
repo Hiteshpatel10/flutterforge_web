@@ -8,7 +8,7 @@
         </div>
       </a>
     </div>
-    <div class="hidden lg:block">
+    <!-- <div class="hidden lg:block">
       <ul class="inline-flex space-x-8">
         <li>
           <a
@@ -35,7 +35,7 @@
           </a>
         </li>
       </ul>
-    </div>
+    </div> -->
  
     <div class="lg:hidden">
       <svg
