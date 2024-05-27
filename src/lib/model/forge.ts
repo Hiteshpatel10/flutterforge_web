@@ -11,7 +11,7 @@ export interface ForgeSubcategory {
     id:                number;
     title:             string;
     slug:              string;
-    image:             null;
+    image:             string;
     forge_category_id: number;
     description:       string;
 }

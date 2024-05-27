@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import Gist from './gist.svelte';
+	import Gist from '$lib/components/gist.svelte';
 
 	let showCode: boolean = true;
 	let showPreview: boolean = false;
